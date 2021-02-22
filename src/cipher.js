@@ -1,6 +1,7 @@
 const cipher = {
   encode: function(offset,string){
     let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    offset = offset % alphabet.length;
     let mensaje = '';
     //Toma cada elemento del array y verifica que esté en el alfabeto
     for(let i=0;i<string.length;i++){
@@ -18,6 +19,7 @@ const cipher = {
   },
   decode: function(offset,string){
     let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    offset = offset % alphabet.length;
     let mensaje = '';
     for(let i=0;i<string.length;i++){
       let index = alphabet.indexOf(string[i]);
