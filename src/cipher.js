@@ -1,7 +1,7 @@
 const cipher = {
   encode: function(offset,string){
     const alphabet = 26;
-    offset =  (offset === null) ? undefined : offset % alphabet;
+    offset =  (offset === null) ? undefined : (offset<0) ? (alphabet - Math.abs(offset % alphabet)) :  offset % alphabet;
     string = typeof string === 'string' ? string : undefined;
     let mensaje = '';
 
