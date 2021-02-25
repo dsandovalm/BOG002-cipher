@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+}
+
+.offset{
+  max-width: 200px;
+  position: relative;
+  left:calc(100% - 200px);
+}
+
+.text{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    margin: 15px 0;
+}
+
+/* Translate */
+.traductor{
+  display: flex;
+  padding: 5px;
+}
+
+.traductor div{
+    padding: 5px;
+    width: 50%;
+}
+button{
+  width: 100%;
+}
