@@ -1,17 +1,23 @@
 import cipher from './cipher.js';
 
-function encode(){
-    let mensaje = document.getElementById('encodeT').value;
-    let offset = document.getElementById('offset').value;
-    document.getElementById('decodeT').value = cipher.encode(offset, mensaje);
-} 
+//console.log(cipher);
 
-function decode(){
-    let mensaje = document.getElementById('decodeT').value;
-    let offset = document.getElementById('offset').value;
-    document.getElementById('encodeT').value = cipher.decode(offset, mensaje);
-} 
+document.getElementById("encodeB").addEventListener("click", buttonEncode);
 
-document.getElementById('encodeB').addEventListener('click', encode);
-document.getElementById('decodeB').addEventListener('click', decode);
+//document.getElementById("encodeT").
 
+function buttonEncode() {
+  let offset = document.getElementById('offset').value;
+  let texto = document.getElementById('encodeT').value;
+  let resultado = document.getElementById('decodeT');
+  resultado.innerHTML = cipher.encode(offset,texto);
+}
+
+document.getElementById("decodeB").addEventListener("click", buttonDecode);
+
+function buttonDecode() {
+  let offset = document.getElementById('offset').value;
+  let texto = document.getElementById('decodeT').value;
+  let resultado = document.getElementById('encodeT');
+  resultado.value = cipher.decode(offset,texto);
+}
