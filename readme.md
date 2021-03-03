@@ -6,8 +6,11 @@ Desarrollado por: Susan Saenz y Diana Sandoval
 En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar para encriptar y decriptar mensajes.
 
 ## Instrucciones de uso 
+1. Descargar la carpeta
+2. 
 
 ## Funcionalidad
+
 La aplicación permite encriptar o decriptar mensajes, remplazando las letras del alfabeto internacional por su correspondiente en el alfabeto cifrado o viceversa. Los caracteres como letras con acentos (á, ä) o de alfabetos diferentes al ingles (ñ), números y simbolos no se encriptan sino que se conservan tal cual en su misma posición. Se puede usar cualquier número para el desplazamiento.
 
 ## Decisiones de diseño
