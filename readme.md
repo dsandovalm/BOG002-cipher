@@ -20,6 +20,10 @@ En el offset deberás colocar un número, que corresponde al desplazamiento que 
 
 **IMPORTANTE:** El offset debe ser el mismo al cifrar y al descifrar, de lo contrario no podrás obtener el mensaje correctamente.
 
+Si vas a cifrar un mensaje:
+
+Escribe en el cuaadro de texto que se encuentra al lado izquierdo,
+
 
 ## Funcionalidad
 
