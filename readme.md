@@ -13,28 +13,17 @@ En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar 
 Si no quieres descargar ahora, puedes usar una versión web [haciendo click aquí](https://caesar-cipher.susansaenz.repl.co/). 
 
 ### Descargar
-Para usarla desde tu equipo, puedes descargar esta carpeta haciendo click en el botón Code y luego en Download ZIP.
+Para usarla desde tu equipo, puedes descargar esta carpeta haciendo click en el botón **Code** y luego en **Download ZIP**.
 
-Para abrir deberás descomprimir el .zip, entrar a la carpeta src y abrir el index.html, este automaticamente se abrirá con tu navegador predeterminado.  
+Para abrir deberás descomprimir el _.zip_, entrar a la carpeta src y abrir el _index.html_, este automaticamente se abrirá con tu navegador predeterminado.  
 
 ### Usar
-Una vez abierta la aplicación, verás el campo del offset y los campos para texto.
 
-- Coloca un número en el offset, que corresponde al desplazamiento que tendrán los alfabetos de cifrado y descifrado.
+Una vez el usario haya ingresado al sitio web, visualiza que hay tres campos para diligenciar. En el primer campo llamado offset, es donde el usuario ingresará un **número** que corresponde a la cantidad de letras que quiera que se desplacen las letras de su mensaje original para poder cifrarlo. 
 
-**IMPORTANTE:** El offset debe ser el mismo al cifrar y al descifrar, de lo contrario no podrás obtener el mensaje correctamente.
+Definido el offset a usar, el usuario podra ingresar el mensaje a encriptar en el cuadro de texto ubicado al lado izquierdo de la pantalla, a continuación da click en el botón cifrar y su mensaje encriptado aparecera en el recuadro derecho.
 
-- Si vas a cifrar un mensaje:
-
-Escribe tu mensaje en el cuadro de texto que se encuentra al lado izquierdo y haz click en el botón de CIFRAR que se encuentra justo arriba del cuadro. 
-
-El mensaje cifrado aparecerá en el cuadro de texto del lado derecho, ya puedes copiar y enviarlo. Asegurate de enviar también el offset que usaste para que la otra persona pueda leerlo correctamente.
-
-- Si vas a descifrar un mensaje:
-
-Revisa que el offset tiene el número correcto. Pon mensaje a cifrado en el cuadro de texto que se encuentra al lado derecho y haz click en el botón de DECIFRAR que se encuentra justo arriba del cuadro.
-
-El mensaje decifrado aparecerá en el cuadro de texto del lado izquierdo.
+Para descifrar el mensaje se debe ingresar el mismo offset con el que fue codificado. Seguidamente se debe ingresar el mensaje a descifrar en el recuadro derecho, se da click en el botón descifrar y el texto desencriptado aparecerá al lado izquierdo de la pantalla. 
 
 
 ## Funcionalidad
