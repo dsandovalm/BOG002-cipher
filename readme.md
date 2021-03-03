@@ -1,9 +1,9 @@
 # En Clave
-Desarrollado por: _Susan Saenz_ y _Diana Sandoval_ 
+_Desarrollado por Susan Saenz y Diana Sandoval_ 
 
 ## Descripción
 
-En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar para encriptar y decriptar mensajes.
+En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar para encriptar y decriptar mensajes en la que el usuario puede elegir el desplazamiento para cifrar y para descifrar, aportando seguridad adicional.
 
 ## Instrucciones de uso 
 
