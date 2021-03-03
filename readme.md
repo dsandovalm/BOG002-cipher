@@ -1,13 +1,25 @@
-# Cipher
-Desarrollado por: Susan Saenz y Diana Sandoval 
+# En Clave
+Desarrollado por: _Susan Saenz_ y _Diana Sandoval_ 
 
 ## Descripción
 
 En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar para encriptar y decriptar mensajes.
 
 ## Instrucciones de uso 
-1. Descargar la carpeta
-2. 
+
+### Versión web
+Si no quieres descargar ahora, puedes usar una versión web [haciendo click aquí](https://caesar-cipher.susansaenz.repl.co/). 
+
+### Descargar
+
+### Abrir
+
+### Usar
+Una vez abierta la aplicación, verás el campo del offset y los campos para texto. 
+En el offset deberás colocar un número, que corresponde al desplazamiento que tendrán los alfabetos de cifrado y descifrado.
+
+**IMPORTANTE:** El offset debe ser el mismo al cifrar y al descifrar, de lo contrario no podrás obtener el mensaje correctamente.
+
 
 ## Funcionalidad
 
