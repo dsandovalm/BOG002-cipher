@@ -1,4 +1,5 @@
 # Cipher
+Desarrollado por: Susan Saenz y Diana Sandoval 
 
 ## Descripción
 
@@ -18,9 +19,3 @@ La aplicación está orientada a ser usada por activistas y organizaciones de de
 La interfaz consta de una sola pantalla en la que se encuentra el encabezado, el espacio del offset que admite cualquier número y 2 secciones cada una con un cuadro de texto y un botón, simulando la interfaz del traductor, el lado izquierdo corresponde al texto decodificado, teniendo sobre él un botón para codificar y el lado derecho al texto codificado con su respectivo botón para decodificar. 
 
 Al codificar el texto, el nuevo mensaje aparece en el cuadro de texto de la derecha y al codificarlo aparece en el cuadro de texto de la izquierda, permitiendo pasar facilmente entre una acción y la otra.
-
-***
-### UX
-//  Diseñar la aplicación pensando y entendiendo al usuario.
-// Crear prototipos para obtener feedback e iterar.
-// Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
