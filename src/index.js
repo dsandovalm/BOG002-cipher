@@ -1,10 +1,6 @@
 import cipher from './cipher.js';
 
-//console.log(cipher);
-
 document.getElementById("encodeB").addEventListener("click", buttonEncode);
-
-//document.getElementById("encodeT").
 
 function buttonEncode() {
   let offset = document.getElementById('offset').value;
