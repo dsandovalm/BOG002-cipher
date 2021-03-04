@@ -1,28 +1,44 @@
+/* - - - General - - - */
+
 :root{
-    --main: #3B83BD;
-    --ligth: rgb(206, 224, 240);
-    --dark: #6F7085;
+    --main: #5B92E5; 
+    --ligth: rgb(242, 245, 248);
+    --dark: rgb(141, 141, 155);
     --postit: rgb(240, 226, 190);
     --shade: rgb(218, 182, 129);
 }
+
 *{
   box-sizing: border-box;
   margin:0
 }
+
 body{
   background-color: var(--ligth);
   font-family: 'Lato', sans-serif;
 }
 
+/* - - - Header - - - */
+
 header{
-    text-align: center;
-    display: flex;
-    justify-content:space-between;
-    background-color: var(--main);
-    color: var(--postit);
-    align-items: middle;
-    padding:10px 20px;
+  text-align: left;
+  display: flex;
+  justify-content:space-between;
+  background-color: var(--main);
+  color: var(--ligth);
+  align-items: middle;
+  padding:10px 20px;
 }
+
+.nota{
+  color:var(--postit);
+}
+
+.icono{
+  height:50px;
+}
+
+/* - - - Offset - - - */
 
 .offset{
   max-width: 200px;
@@ -30,8 +46,23 @@ header{
   margin:20px 0;
   left:calc(100% - 200px);
   color: var(--dark);
+}
 
-  
+#offset{
+  padding: 2px;
+  border-radius: 5px;
+}
+
+/* - - - Translate - - - */
+
+.traductor{
+  display: flex;
+  padding: 5px;
+}
+
+.traductor div{
+    padding: 10px;
+    width: 50%;
 }
 
 .text{
@@ -47,16 +78,7 @@ header{
     font-family: 'Caveat', cursive;
 }
 
-/* Translate */
-.traductor{
-  display: flex;
-  padding: 5px;
-}
-
-.traductor div{
-    padding: 10px;
-    width: 50%;
-}
+/* - - - Botones - - - */
 
 button{
   padding: 5px;
@@ -68,9 +90,11 @@ button{
   box-shadow: 2px 2px var(--dark);
   font-family: 'Lato', sans-serif;
 }
+
 button:hover{
   background-color: var(--dark);
 }
+
 button:active{
   background-color: var(--dark);
   position: relative;
@@ -79,11 +103,18 @@ button:active{
   box-shadow: none;
 }
 
-#offset{
-  border-radius: 5px;
-  padding: 2px;
+/* - - - Footer - - - */
+
+footer{
+  width: 100%;
+  padding: 2px 10px;
+  position: fixed;
+  bottom: 0;
+  background-color: var(--dark);
+  color:var(--ligth);
+  text-align: right;
 }
 
-.icono{
-  height:50px;
+a{
+  color:var(--ligth);
 }
