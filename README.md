@@ -10,7 +10,7 @@ En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar 
 ## Instrucciones de uso 
 
 ### Versión web
-Para utilizar esta aplicación web puedes usar una versión web [haciendo click aquí](https://dsandovalm.github.io/BOG002-cipher/src/index.html). 
+Para utilizar esta aplicación web puedes acceder [haciendo click aquí](https://dsandovalm.github.io/BOG002-cipher/src/index.html). 
 
 <!---### Descargar
 Para usarla desde tu equipo, puedes descargar esta carpeta haciendo click en el botón **Code** y luego en **Download ZIP**.
