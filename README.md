@@ -10,12 +10,11 @@ En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar 
 ## Instrucciones de uso 
 
 ### Versión web
-Si no quieres descargar ahora, puedes usar una versión web [haciendo click aquí](https://caesar-cipher.susansaenz.repl.co/). 
+Para utilizar esta aplicación web puedes usar una versión web [haciendo click aquí](https://dsandovalm.github.io/BOG002-cipher/src/index.html). 
 
-### Descargar
+<!---### Descargar
 Para usarla desde tu equipo, puedes descargar esta carpeta haciendo click en el botón **Code** y luego en **Download ZIP**.
-
-Para abrir deberás descomprimir el _.zip_, entrar a la carpeta src y abrir el _index.html_, este automaticamente se abrirá con tu navegador predeterminado.  
+Para abrir deberás descomprimir el _.zip_, entrar a la carpeta src y abrir el _index.html_, este automaticamente se abrirá con tu navegador predeterminado.---> 
 
 ### Usar
 
